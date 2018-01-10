@@ -1,0 +1,85 @@
+* {
+	box-sizing: border-box;
+	text-align: center;
+}
+
+header, nav, section, aside, section, .pBox, .hBox, footer {
+	background-color: #ebebeb;
+	color: #777;
+}
+
+body {
+	background-color: #777;
+	color: #777;
+}
+
+header {
+	margin: 10px 150px 10px 150px;
+	height: 100px;
+	width: 950px;
+	padding: 25px;
+}
+
+nav {
+	margin: 10px 150px 10px 150px;
+	height: 100px;
+	width: 950px;
+	padding: 25px;
+}
+
+section {
+	float: left;
+	margin: 20px 0px 20px 150px;
+	/*height: 450px;*/
+	width: 550px;
+	color: grey;
+	content: "";
+	display: block;
+	overflow: auto;
+}
+
+
+article {
+	margin: 10px 0 10px 10px;
+	/*height: 250px;*/
+	width: 530px;
+	padding: 10px 0;
+	background-color: grey;
+	color: white;
+}
+
+.hBox {
+	font-weight: bold;
+	font-size: 18px;
+	color: grey;
+	height: 50px;
+	width: 490px;
+	padding: 2px 0;
+	margin: 10px 20px;
+
+}
+
+.pBox {
+	color: grey;
+	height: 50px;
+	width: 490px;
+	padding: 2px 0;
+	margin: 10px 20px;
+
+}
+
+aside {
+	float: right;
+	color: grey;
+	height: 250px;
+	width: 380px;
+	margin: 20px 150px 10px 0;
+}
+
+footer {
+	clear: both;
+	margin: 10px 150px;
+	height: 100px;
+	width: 950px;
+	padding: 25px;
+}
