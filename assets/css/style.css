@@ -1,0 +1,110 @@
+p, h5 {
+	color: #777777;
+}
+
+h2, h3 {
+	color: #4aaaa5;
+}
+
+.main p {
+	
+}
+
+header {
+	position: relative;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color: #ffffff;
+	border-bottom-style: solid;
+	border-width: 2px;
+	border-bottom-color: #cccccc;
+	overflow: auto;
+}
+
+h1 {
+	float: left;
+	text-align: center;
+	background-color: #4aaaa5;
+	font-weight: bold;
+	font-size: 26;
+	color: white;
+	width: 250px;
+	margin-left: 150px;
+	padding: 25px 0;
+}
+
+.links a {
+	text-decoration: none;
+
+}
+
+.links {
+	position: absolute;
+	top: 30px;
+	right: 100px;
+	/*float: right;*/
+	color: #777777;
+	
+}
+
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-image: url("../images/tileable_wood_texture_@2X.png");
+}
+
+.full {
+	position: relative;
+	width: 960px;
+	margin: 30px auto;
+	overflow: auto;
+}
+
+.main {
+	float: left;
+	background-color: #ffffff;
+	border-color: #dddddd;
+	border-style: solid;
+	border-width: 1px;
+	height:;
+	width: 610px;
+	padding: 20px;
+}
+
+.boxHead {
+
+}
+
+.meImage {
+	float: left;
+	padding: 30px;
+}
+
+aside {
+	float: right;
+	background-color: #ffffff;
+	border-color: #dddddd;
+	border-style: solid;
+	border-width: 1px;
+	width: 230px;
+	padding: 20px;
+}
+
+footer {
+	float: left;
+	background-color: #666666;
+	position: relative;
+	border-top-style: solid;
+	border-top-color: #4aaaa5;
+	border-top-width: 10px;
+	overflow: both;
+}
+
+h5 {
+	/*float: left;*/
+	text-align: center;
+	/*position: absolute;*/
+	margin: 0 500px;
+	bottom: 0;
+	font-size: 12;
+}
+
+
