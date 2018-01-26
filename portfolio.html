@@ -1,63 +1,74 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html lang="en_us">
 
 <head>
 
-	<title>Portfolio</title>
 	<meta charset="UTF-8">
+	<title>Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 
-<header>
-	<h1>Adam Kahane</h1>
-
-	<section class="links">
-		<a href="index.html">About</a>
-		<u><a href="portfolio.html">Portfolio</a></u>
-		<a href="contact.html">Contact</a>
-	</section>
-
-</header>
-
 <body>
+	
+	<header id="navhead">
+		<div class="container">
+			<a href="index.html" id="myname">Adam Kahane</a>
+			<nav>
+				<a href="index.html">About</a>
+				<u><a href="portfolio.html">Portfolio</a></u>
+				<a href="contact.html">Contact</a>
+			</nav>
+		</div>
+	</header>
 
-	<div class="full">
+	<div id="full" class="container">
 		
-		<section class="main">
+		<section id="projectbox" class="main">
+			<h1>Portfolio</h1>
 
-			<div class="boxHead">
-				<h2>Portfolio</h2>
+			<div class="projects">
+				<a href="#"><img src="assets/images/image_placeholder.png" alt="hangman"></a>
+				<h3>Hangman</h3>
 			</div>
 
-			<div id="projects">
-				<a href="#"><img src="assets/images/image_placeholder.png"></a>
-				<div id="hangman">Hangman</div>
-				<a href="#"><img src="assets/images/image_placeholder.png"></a>
-				<div id="rpg">RPG Game</div>
-				<a href="#"><img src="assets/images/image_placeholder.png"></a>
-				<div id="trivia">Trivia Game</div>
-				<a href="#"><img src="assets/images/image_placeholder.png"></a>
-				<div id="rutgers">Rutgers info Widget</div>
-				<a href="#"><img src="assets/images/image_placeholder.png"></a>
-				<div id="rockPaper">Rock Paper Scissors</div>
+			<div class="projects">
+				<a href="#"><img src="assets/images/image_placeholder.png" alt="RPG"></a>
+				<h3>RPG Game</h3>
 			</div>
-			
+
+			<div class="projects">
+				<a href="#"><img src="assets/images/image_placeholder.png" alt="Trivia"></a>
+				<h3>Trivia Game</h3>
+			</div>
+				
+			<div class="projects">
+				<a href="#"><img src="assets/images/image_placeholder.png" alt="Info Widget"></a>
+				<h3>Rutgers info Widget</h3>
+			</div>
+
+			<div class="projects">
+				<a href="#"><img src="assets/images/image_placeholder.png" alt="Rock Paper Scissors"></a>
+				<h3>Rock Paper Scissors</h3>
+			</div>
+
 		</section>
 	
 		<aside>
-			<h3>Connect with Me</h3>
-			<a href="https://github.com/adkahane"><img src="assets/images/if_github_square_black_107109.png" width=50 height=50></a>
-			<a href="https://www.linkedin.com/in/adam-kahane-70a291b0/"><img src="assets/images/if_linkedin_square_color_107091.png" width=50 height=50></a>
-			<a href="https://stackoverflow.com/users/9185226/adam-kahane?tab=profile"><img src="assets/images/if_stackoverflow_273179.png" width=50 height=45></a>
+				<h2>Connect with Me</h2>
+				<a href="https://github.com/adkahane" target="_blank"><img src="assets/images/if_github_square_black_107109.png" class="connect" alt="GitHub" /></a>
+				<a href="https://www.linkedin.com/in/adam-kahane-70a291b0/" target="_blank"><img src="assets/images/if_linkedin_square_color_107091.png" class="connect" alt="LinkedIn" /></a>
+				<a href="https://stackoverflow.com/users/9185226/adam-kahane?tab=profile" target="_blank"><img src="assets/images/if_stackoverflow_273179.png" class="connectStack" alt="Stack Overflow"></a>
 		</aside>
 	</div>
 
+	<footer>
+		<div class="container">
+			<h5>&copy; Copyright 2018 Adam Kahane</h5>
+		</div>
+	</footer>
+
 </body>
-
-<footer>
-	<h5>&copy; Copyright 2018 Adam Kahane</h5>
-</footer>
-
 </html>
