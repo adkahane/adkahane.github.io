@@ -199,6 +199,7 @@ h5 {
 #projectbox {
 	width: 100%;
 	min-width: 640px;
+	max-width: 640px;
 }
 
 /*contact*/
